@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+  }
+
+  .body{
+    display: grid;
+    justify-items: center;
+  }
+
+
+  .gameBox{
+    border: 5px solid yellow; 
+    margin: 10px;
+    height: 550px;
+    width: 450px;
+    border-radius: 50px;
+  }
+
+  
+  
+  .heading{
+    display: grid;
+    grid-template-rows: 100px;
+    align-items: center;
+  }
+
+  .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 65px;
+  }
+
+
+  .move-icon{
+    height: 50px;
+  }
+  .move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  .result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 190px;
+  }
+  .score{
+    margin-top: 60px;
+    margin-left: 120px;
+  }
+
+  .reset-score-button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: 160px;
+  }
+  
+  .moves{
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 40px;
+  }
